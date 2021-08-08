@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;700&display=swap');
+
+:root {
+    --background: #F5F5F5;
+    --text: rgb(31, 45, 61);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--background);
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Search Bar */
+.searchBar {
+    width: 600px;
+    margin: 50px auto;
+}
+
+/* Meal Area Section */
+.meals-container {
+    display: flex;
+}
+
+.meal-content {
+    padding: 12px;
+}
+
+.content {
+    background-color: white;
+    border-radius: 10px;
+    border-bottom: 1px solid #3333331a;
+    cursor: pointer;
+}
+
+.meal-content img {
+    max-width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.meal-content h2 {
+    font-size: 17px;
+    font-weight: 600;
+    text-align: center;
+    padding: 20px 0;
+    color: var(--text);
+    margin: 0;
+}
+
+.meal-details {
+    background-color: #fff;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    border-bottom: 1px solid #3333331a;
+}
+
+.mealImage {}
+
+.mealImage img {
+    max-width: 100%;
+    display: block;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.mealInfo {
+    padding: 20px;
+}
+
+.mealInfo h2 {
+    font-weight: 700;
+    font-size: 32px;
+}
+
+.mealInfo h4 {
+    font-weight: 700;
+    font-size: 22px;
+    color: orangered;
+}
+
+.mealInstructions {
+    padding: 30px 60px;
+}
+
+.mealInstructions h4 {
+    font-weight: 700;
+    font-size: 22px;
+    color: orangered;
+    margin-top: 10px;
+}
+
+.mealInstructions p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7;
+}
+
+.ingredients {
+    padding: 0;
+}
+
+.ingredients li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 0px 5px 0px 10px;
+    line-height: 2;
+}
+
+.ingredients li:nth-of-type(even) {
+    background: #f1f1f1;
+}
+
+
+
+/* Search Area */
+.search-area {}
+
+.search-area input {
+    padding: 10px 20px;
+    border: 1px solid #0dcaf0;
+    font-size: 18px;
+}
+
+.search-area button {
+    color: #fff;
+    padding: 0 30px;
+    font-size: 18px;
+}
+
+.search-area input:focus,
+.search-area button:focus {
+    box-shadow: none;
+}
